@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ndola Teaching Hospital Chatbot</h1>
+    <form action="bot.php" method="post">
+        <p>Hi there, what can I do for you today?</p>
+        <input type="text" name="UserInput" id="UserInput" placeholder="Enter a message">
+        <br><br>
+        <button type="submit">Send</button> 
+    </form>
+    <?php include 'bot.php'; ?> 
+</body>
+</html>
